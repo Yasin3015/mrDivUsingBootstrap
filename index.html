@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MrDiv</title>
+    <!-- ============= bootstrap cdn css file =============== -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- ============ CSS FILE =============== -->
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- ============ fontawesome CSS FILE =============== -->
+
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- ============ calling google font family ============ -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- =============== fav icon ============ -->
+
+    <link rel="icon" href="imgs/logo.PNG">
+</head>
+
+<body>
+    <!-- start intro section -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a href="" class="navbar-brand" >mrdiv</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link active p-lg-3" href="">home</a></li>
+                        <li class="nav-item"><a class="nav-link p-lg-3" href="#about">about us</a></li>
+                        <li class="nav-item"><a class="nav-link p-lg-3" href="#surv">survices</a> </li>
+                        <li class="nav-item"><a class="nav-link p-lg-3" href="#port">portfolio</a> </li>
+                        <li class="nav-item"><a class="nav-link p-lg-3" href="#contact">contact</a></li>
+                        <li class="nav-item" id="seaIcon">
+                            <i class="fas fa-search nav-link p-lg-3" id="icon"></i>
+                        </li>
+                        <li class="nav-item mt-2"><a href="" id="login" class="padding">login</a></li>
+                    </ul>
+            </div>
+            <div class="search remove" id="sear">
+                <input type="search" placeholder="search">
+                <div class="block" id="close">×</div>
+            </div>
+        </div>
+    </nav>
+    <div class="landing d-flex align-items-center justify-content-center">
+        <div class="text-center text-light m-3">
+            
+                <h1>Taste the Creativity</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <button type="submit">start</button>
+        
+            
+        </div>
+
+    </div>
+   
+    <!-- end intro section -->
+    <!-- start services section -->
+     <div class="sevices text-center pt-5 pb-5" id="about">
+        <div class="container">
+            <div class="info">
+                <i class="fa-solid fa-hand mb-5"></i>
+                <h1>this is our services</h1>
+                <p>Take a look at our services</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 card">
+                        <h1>1</h1>
+                        <div class="icon"><i class="fa-brands fa-figma"></i></div>
+                        <h2>graphic design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, corrupti!</p>
+                </div>
+                <div class="col-md-6 col-lg-4 card">
+                    <h1>2</h1>
+
+                    <div class="icon"><i class="fa-solid fa-blog"></i></div>
+                    <h2>web development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, expedita.</p>
+                </div>
+                <div class="col-md-6 col-lg-4 card">
+                    <h1>3</h1>
+                    <div class="icon"><i class="fa-solid fa-mobile"></i></div>
+                    <h2>mobile apps</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, recusandae?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="our-work text-center mb-5 mt-5" id="surv">
+        <div class="container">
+            <div class="info mb-5">
+                <i class="fa-solid fa-network-wired mb-5"></i>
+                <h1>this is our works</h1>
+                <p>Take a look at our services</p>
+            </div>
+            <div class="work-headers">
+                <p class="tap-active header" data-index="1"> design </p>
+                <p class="header" data-index="2"> web </p>
+                <p class="header" data-index="3"> apps </p>
+            </div>
+
+            <div class="cardes-con row" id="design-cardes">
+                <div class="work-card col-md-6 col-lg-4">
+                    <img src="imgs/6.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/5.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/4.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/3.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/2.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/1.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="cardes-con work-cardes row" id="web-cardes">
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/7.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/8.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/9.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/10.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/11.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/12.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="cardes-con work-cardes row" id="apps-cardes">
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/13.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/15.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/20.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/21.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/19.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+                <div class="work-card work-card col-md-6 col-lg-4">
+                    <img src="imgs/17.jpg" alt="">
+                    <div class="work-img-text">
+                        <h1>live demo</h1>
+                    </div>
+                </div>
+            </div>
+            <button type="submit">load more</button>
+        </div>
+    </div>
+    <div class="about text-center pt-5 pb-5">
+        <div class="container">
+            <div class="info text-center mb-5">
+                <i class="fa-solid fa-eject"></i>
+                <h1>who are us</h1>
+                <span class="para">the great team</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt debitis veniam odit voluptatem
+                    iusto, rem aperiam vitae explicabo earum qui aliquam excepturi fuga libero ab reiciendis molestias,
+                    nemo ipsum dolore.</p>
+            </div>
+            <div class="about-information row">
+                <div class="left col-md-6">
+                    <h2>about mr div</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor laboriosam optio reprehenderit
+                        architecto debitis facilis illo aspernatur asperiores beatae modi.</p>
+                    <br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor laboriosam optio reprehenderit
+                        architecto debitis facilis illo aspernatur asperiores beatae modi.</p>
+                    <button type="submit">read more</button>
+                </div>
+                <div class="right col-md-6">
+                    <img src="imgs/about2.PNG">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="the-team">
+        <div class="container">
+            <div class="info">
+                <i class="fa-solid fa-handshake mb-3"></i>
+                <h1>meat the team</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, porro?</p>
+            </div>
+            <div class="team-cardes d-flex justify-content-center align-items-lg-between flex-wrap">
+                <div class="team-card">
+                    <div class="img"><img src="imgs/23.jpg" ></div>
+                    <div class="text">
+                        <h1>anna</h1>
+                        <p class="card-text">
+                            <span class="social-links">
+                                <a href="https://www.facebook.com/yasin.marei/" target="_blank"><i
+                                        class="fa-brands fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/YassinMarei" target="_blank"><i
+                                        class="fa-brands fa-twitter-square"></i></a>
+                            </span>
+                            <span>&quot;</span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis,
+                            sequi.<span>&quot;</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="img"><img src="imgs/24.jpg"></div>
+                    <div class="text">
+                        <h1>ola</h1>
+                        <p class="card-text">
+                            <span class="social-links">
+                                <a href="https://www.facebook.com/yasin.marei/" target="_blank"><i
+                                        class="fa-brands fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/YassinMarei" target="_blank"><i
+                                        class="fa-brands fa-twitter-square"></i></a>
+                            </span>
+                            <span>&quot;</span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis,
+                            sequi.<span>&quot;</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="img"><img src="imgs/25.jpg"></div>
+                    <div class="text">
+                        <h1>ali</h1>
+                        <p class="card-text">
+                            <span class="social-links">
+                                <a href="https://www.facebook.com/yasin.marei/" target="_blank"><i
+                                        class="fa-brands fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/YassinMarei" target="_blank"><i
+                                        class="fa-brands fa-twitter-square"></i></a>
+                            </span>
+                            <span>&quot;</span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis,
+                            sequi.<span>&quot;</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <div class="img"><img src="imgs/26.jpg"></div>
+                    <div class="text">
+                        <h1>noha</h1>
+                        <p class="card-text">
+                            <span class="social-links">
+                                <a href="https://www.facebook.com/yasin.marei/" target="_blank"><i
+                                        class="fa-brands fa-facebook-square"></i></a>
+                                <a href="https://twitter.com/YassinMarei" target="_blank"><i
+                                        class="fa-brands fa-twitter-square"></i></a>
+                            </span>
+                            <span>&quot;</span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis,
+                            sequi.<span>&quot;</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clints">
+        <div class="container">
+            <div class="info">
+                <i class="fa-solid fa-champagne-glasses"></i>
+                <h1>our clients</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum neque inventore quaerat quis
+                    delectus.</p>
+            </div>
+            <div class="row mt-5 mb-5">
+                <div class="col-sm-6 col-lg-2"><img src="imgs/ahly.png "></div>
+                <div class="col-sm-6 col-lg-2"><img src="imgs/fawry.png "></div>
+                <div class="col-sm-6 col-lg-2"><img src="imgs/hero.png "></div>
+                <div class="col-sm-6 col-lg-2"><img src="imgs/ahly.png "></div>
+                <div class="col-sm-6 col-lg-2"><img src="imgs/hero.png "></div>
+                <div class="col-sm-6 col-lg-2"><img src="imgs/fawry.png "></div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="message-us">
+        <div class="container">
+            <h1>start your project</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam recusandae labore nostrum tempore deleniti
+                iusto eligendi expedita? Nobis, doloremque ab.</p>
+            <button>start now</button>
+        </div>
+    </div>
+    <div class="blog">
+        <div class="container">
+            <div class="info">
+                <i class="fa-solid fa-blog"></i>
+                <h1>show our blogs</h1>
+                <p>see our new stories</p>
+            </div>
+            <div class="blog-cardes d-flex align-items-center justify-content-between flex-wrap">
+                <div class="blog-card">
+                    <div class="img"><img src="imgs/26.jpg"></div>
+                    <span>march 6,2022</span>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="blog-card">
+                    <div class="img"><img src="imgs/27.jpg"></div>
+                    <span>march 6,2022</span>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+                <div class="blog-card">
+                    <div class="img"><img src="imgs/32.jpg"></div>
+                    <span>march 6,2022</span>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+            <button type="submit" id="loadmore">more stories</button>
+        </div>
+    </div>
+    <div class="form">
+        <div class="container">
+            <form action="">
+                <lable id="lable">subscribe :</lable>
+                <input type="email" placeholder="enter your email">
+                <button type="submit">subscribe</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="container d-flex align-items-center justify-content-between flex-wrap">
+            <div class="copy">
+                <div class="logo"><a href="">mrdiv</a></div>
+                <p class="color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, aperiam natus at distinctio,
+                    exercitationem repellendus vel, odio nisi totam sit rem eos accusamus optio modi!</p>
+                <p>created by <a href="https://www.facebook.com/yasin.marei" target="_blank">yasinmarei</a></p>
+                <p>copyright &#169; <a href="https://www.facebook.com/yasin.marei" target="_blank">yasinmarei</a></p>
+            </div>
+            <div class="relative-links">
+                <h1>links</h1>
+                <ul>
+                    <li><a href=""> home </a></li>
+                    <li><a href=""> about </a></li>
+                    <li><a href=""> services </a></li>
+                    <li><a href=""> contact </a></li>
+                    <li><a href=""> our work </a></li>
+                </ul>
+            </div>
+            <div class="relative-links">
+                <h1>links</h1>
+                <ul>
+                    <li><a href=""> home </a></li>
+                    <li><a href=""> about </a></li>
+                    <li><a href=""> services </a></li>
+                    <li><a href=""> contact </a></li>
+                    <li><a href=""> our work </a></li>
+                </ul>
+            </div>
+            <div class="copy right">
+                <h1>contact us</h1>
+                <p class="color">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt tempora a molestias placeat
+                    voluptatibus mollitia labore enim incidunt ducimus libero!</p>
+                <div class="social">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-google-plus-square"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="goup" onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- =================== bootstrap cdn js file =============== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ======================= js file ========  -->
+
+    <script src="js/mrdiv.js"></script>
+
+</body>
+
+</html>
